@@ -61,7 +61,7 @@ const init = () => {
           xScale: win.w < 768 ? 0.5 : 0.8,
           yScale: win.w < 768 ? 0.5 : 0.8,
           texture:
-          'https://github.com/bbauska/thankyou-10k/blob/main/images/thankyou.jpg?raw=true'
+          './images/thankyou.jpg?raw=true'
         }
       }  <!-- render: -->
     })  <!-- return Bodies.circle -->
